@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(to right, #00f, #00aaff);
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background 0.3s, color 0.3s;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li {
+    margin: 0 20px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    transition: color 0.3s, background 0.3s;
+}
+
+#navbar a:hover {
+    color: #ff0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#content {
+    padding-top: 60px;
+}
+
+section {
+    padding: 100px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.scrolled {
+    background: linear-gradient(to right, #00aaff, #00f);
+}
